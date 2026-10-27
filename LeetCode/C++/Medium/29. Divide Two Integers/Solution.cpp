@@ -4,7 +4,7 @@ public:
         bool neg = false;
         if(dividend>0 && divisor<0){
             neg = true;
-            divisor*=-1;
+            divisor;
         }
         if(dividend<0 && divisor>0){
             neg = true;
