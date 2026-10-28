@@ -8,8 +8,8 @@
 Array, Stack, Design
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 14 ms
+- **Memory:** 28.7 MB
 
 ---
 
