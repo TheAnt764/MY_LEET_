@@ -2,16 +2,14 @@ class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
         sort(nums.begin(), nums.end());
+        
 
-        int coun = 1;
+        int count = 0;
         for(int i=0;i<nums.size();i++){
-            if(nums[i]<1)continue;
-            else if(nums[i] == ans){
-                ans++;
+            if(nums[i]<1){
+                count++;
                 continue;
             }
-            else return ans;
         }
-        return ans;
     }
 };
