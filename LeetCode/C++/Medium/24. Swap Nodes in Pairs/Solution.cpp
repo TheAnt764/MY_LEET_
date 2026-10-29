@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
         if(head==nullptr)return nullptr;
-        
+
         vector<int> vec;
         ListNode* temp = head;
 
@@ -27,7 +27,7 @@ public:
             vec[i+1] = vec[i]^vec[i+1];
             vec[i] = vec[i]^vec[i+1];
         }
-        ListNode* head2 = new ListNode(vec[0]);
+        ListNode* head = new ListNode(vec[0]);
         temp = head2;
         for(int i=1;i<vec.size();i++){
             temp->next = new ListNode(vec[i]);
