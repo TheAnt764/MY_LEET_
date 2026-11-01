@@ -1,6 +1,6 @@
 # 📝 1346. Check If N and Its Double Exist (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/check-if-n-and-its-double-exist/)
+🔗 [Problem Link](https://leetcode.com/problems/check-if-n-and-its-double-exist)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
