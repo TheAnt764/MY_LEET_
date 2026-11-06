@@ -2,13 +2,13 @@ class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         if(strs.size() == 1)return {{strs[0]}};
-        
+
         vector<vector<string>> result;
         vector<int> hash ;
         for(string str: strs){
             int temp = 0;
             for(int i=0;i<str.length();i++){
-                temp += str[i] - 'a';
+                temp += str[i];
             }
             hash.push_back(temp);
         }
