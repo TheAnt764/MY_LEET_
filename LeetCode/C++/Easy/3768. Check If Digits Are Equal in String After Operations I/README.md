@@ -8,8 +8,8 @@
 Math, String, Simulation, Combinatorics, Number Theory
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 7 ms
+- **Memory:** 9.9 MB
 
 ---
 
