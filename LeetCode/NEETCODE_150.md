@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 8 / 150 (5.3%)
+- **Completed:** 9 / 150 (6.0%)
 
 ---
 
@@ -56,7 +56,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 ### 📂 Linked List
 - [ ] Reverse Linked List
 - [ ] Merge Two Sorted Lists
-- [ ] Reorder List
+- [x] [Reorder List](./C++/Medium/143. Reorder List/)
 - [ ] Remove Nth Node From End of List
 - [ ] Copy List with Random Pointer
 - [x] [Add Two Numbers](./C++/Medium/2. Add Two Numbers/)

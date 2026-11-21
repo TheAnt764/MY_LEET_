@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 7 / 75 (9.3%)
+- **Completed:** 8 / 75 (10.7%)
 
 ---
 
@@ -64,7 +64,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Merge Two Sorted Lists
 - [x] [Merge k Sorted Lists](./C++/Hard/23. Merge k Sorted Lists/)
 - [ ] Remove Nth Node From End of List
-- [ ] Reorder List
+- [x] [Reorder List](./C++/Medium/143. Reorder List/)
 
 ### 📂 Matrix
 - [x] [Set Matrix Zeroes](./C++/Medium/73. Set Matrix Zeroes/)
