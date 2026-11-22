@@ -4,7 +4,7 @@ public:
         int i=0;
         while(true){
             if(s[i]=='b')break;
-            if(i>s.length())break;
+            if(i>s.length()-1)break;
             i++;
         }
         for(i;i<s.length();i++){
