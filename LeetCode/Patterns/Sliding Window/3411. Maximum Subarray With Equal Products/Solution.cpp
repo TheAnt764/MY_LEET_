@@ -5,7 +5,7 @@ public:
         for(int i=0;i<nums.size();i++){
             int l = 1;
             int h = nums[i];
-            long long p = 1;
+            int p = 1;
             for(int j=i;j<nums.size();j++){
                 p*= nums[j];
                 l = lcm(nums[j],l);
