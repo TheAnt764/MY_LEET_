@@ -5,8 +5,11 @@ public:
         for(int i=0;i<nums.size();i++){
             int l = 1;
             int h = nums[i];
-            long long p = 1;
+            long p = 1;
             for(int j=i;j<nums.size();j++){
+                if(p>=INT_MAX){
+                    break;
+                }
                 p*= nums[j];
                 l = lcm(nums[j],l);
                 h = gcd(nums[j],h);
