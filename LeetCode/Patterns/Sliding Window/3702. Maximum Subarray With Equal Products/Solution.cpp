@@ -7,9 +7,7 @@ public:
             int h = nums[i];
             long p = nums[i];
             for(int j=i+1;j<nums.size();j++){
-                if(p>=INT_MAX){
-                    break;
-                }
+                if(p*nums[j]>=INT_MAX)break;
                 p*= nums[j];
                 l = lcm(nums[j],l);
                 h = gcd(nums[j],h);

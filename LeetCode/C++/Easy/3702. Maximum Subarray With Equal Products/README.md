@@ -8,8 +8,8 @@
 Array, Math, Sliding Window, Enumeration, Number Theory
 
 ### 🚀 Performance
-- **Runtime:** 1 ms
-- **Memory:** 28.1 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
