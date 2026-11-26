@@ -2,7 +2,7 @@ class Solution {
 public:
     bool canAliceWin(int n) {
         int range = 10;
-        while(range < n){
+        while(range <= n){
             n-= range;
             range--;
         }
